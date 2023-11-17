@@ -8,6 +8,10 @@ Dexi is an innovative application developed for the ICP Hackathon, leveraging bl
 
 This project was created as part of the ICP Hackathon, where our team focused on addressing the challenges of credit scoring in the blockchain and decentralized finance (DeFi) space.
 
+## Motivation
+
+Our motivation was to make a Gitcoin Passport, but for DeFi apps. Such as borrowing/lending protocols, or credit protocols. They can use this app(and it can become onchain when you develop it like Chainlink's Aggregator in this case) to get the calculation of a user. In this case a user can request a calculation to get in to a app, or app can request a calculation from the contract for the user(not available right now).
+
 ## Team Members
 
 - **Omer Goksoy**
