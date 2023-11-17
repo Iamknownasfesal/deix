@@ -12,6 +12,8 @@ This project was created as part of the ICP Hackathon, where our team focused on
 
 Our motivation was to make a Gitcoin Passport, but for DeFi apps. Such as borrowing/lending protocols, or credit protocols. They can use this app(and it can become onchain when you develop it like Chainlink's Aggregator in this case) to get the calculation of a user. In this case a user can request a calculation to get in to a app, or app can request a calculation from the contract for the user(not available right now).
 
+With the credit score the DeFi app gets, it can make an auth(for example lower than 1000 points cannot swap in my exchange, or use my protocol at all), or a credit dapp can say that we are not giving any credit to a below 1k etc.
+
 ## Team Members
 
 - **Omer Goksoy**
