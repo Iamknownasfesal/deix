@@ -32,6 +32,12 @@ cd dexi
 npm install
 ```
 
+## Usage
+
+You have to deploy an contract, you can contract via Remix or any tool you want such as Truffle or Hardhat.
+
+Then you need to open the backend(do not forget to fill the dot env file), and open the frontend, change the CONTRACT_ADDRESS constant to your contract address, which you deployed via Remix in this case.
+
 ## Contributing
 
 We welcome contributions to Dexi! Check our contributing guidelines for more details.
