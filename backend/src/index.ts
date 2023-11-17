@@ -33,9 +33,11 @@ async function main() {
       const queue: string[] = await contract.methods.get_queue().call();
       if (queue.length > 0) {
         const user = queue[0];
+        console.log(user);
         const score = await calculateCreditPoints(user);
 
         if (score === 0) continue;
+        console.log(score);
 
         await contract.methods
           .apply_request(
